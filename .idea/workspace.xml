@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2cdaf9d9-8310-4aab-874f-d3653036e4db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/e2e/tsconfig.e2e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/MindReaderAlg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/MindReaderGUI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/MindReaderGUI_canvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/MindReaderGame.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/components/main/main.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/components/main/main.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/components/main/main.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/components/main/main.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/game/game.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/game/game.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/game/game.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/game/game.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/result.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/result.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/result.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/CameraCulture_Logo_R_RGB1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/MIT_ML_Logo_R_RGB1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/MindReaderAlg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/MindReaderGUI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/MindReaderGUI_canvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/MindReaderGame.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/css/ie8.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/css/ie9.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/css/images/overlay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/css/images/pattern-size1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/css/images/pattern-size2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/css/images/pattern-size3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/css/main - Copy.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/css/overwrite.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/js/ie/PIE.htc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/js/ie/html5shiv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/js/ie/respond.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/js/jquery.scrolly.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/js/skel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/js/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/sass/base/_page.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/sass/base/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/sass/components/_box.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/sass/components/_button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/sass/components/_form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/sass/components/_icon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/sass/components/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/sass/components/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/sass/components/_section.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/sass/components/_spotlight.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/sass/components/_table.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/sass/components/_wrapper.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/sass/ie8.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/sass/ie9.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/sass/layout/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/sass/layout/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/sass/layout/_main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/sass/libs/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/sass/libs/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/sass/libs/_skel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/sass/libs/_vars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/sass/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webVersion/MindReaderAlg.js" beforeDir="false" afterPath="$PROJECT_DIR$/webVersion/MindReaderAlg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webVersion/MindReaderGUI.js" beforeDir="false" afterPath="$PROJECT_DIR$/webVersion/MindReaderGUI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webVersion/MindReaderGame.js" beforeDir="false" afterPath="$PROJECT_DIR$/webVersion/MindReaderGame.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webVersion/assets/css/images/pattern-size1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/webVersion/assets/css/images/pattern-size1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webVersion/assets/css/images/pattern-size2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/webVersion/assets/css/images/pattern-size2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webVersion/assets/css/images/pattern-size3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/webVersion/assets/css/images/pattern-size3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webVersion/assets/css/overwrite.css" beforeDir="false" afterPath="$PROJECT_DIR$/webVersion/assets/css/overwrite.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webVersion/assets/js/jquery.scrolly.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/webVersion/assets/js/jquery.scrolly.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webVersion/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/webVersion/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webVersion/assets/js/skel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/webVersion/assets/js/skel.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webVersion/assets/js/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/webVersion/assets/js/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webVersion/assets/sass/base/_page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/webVersion/assets/sass/base/_page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webVersion/assets/sass/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/webVersion/assets/sass/base/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webVersion/assets/sass/components/_box.scss" beforeDir="false" afterPath="$PROJECT_DIR$/webVersion/assets/sass/components/_box.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webVersion/assets/sass/components/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/webVersion/assets/sass/components/_button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webVersion/assets/sass/components/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/webVersion/assets/sass/components/_form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webVersion/assets/sass/components/_icon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/webVersion/assets/sass/components/_icon.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webVersion/assets/sass/components/_image.scss" beforeDir="false" afterPath="$PROJECT_DIR$/webVersion/assets/sass/components/_image.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webVersion/assets/sass/components/_list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/webVersion/assets/sass/components/_list.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webVersion/assets/sass/components/_section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/webVersion/assets/sass/components/_section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webVersion/assets/sass/components/_spotlight.scss" beforeDir="false" afterPath="$PROJECT_DIR$/webVersion/assets/sass/components/_spotlight.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webVersion/assets/sass/components/_table.scss" beforeDir="false" afterPath="$PROJECT_DIR$/webVersion/assets/sass/components/_table.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webVersion/assets/sass/components/_wrapper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/webVersion/assets/sass/components/_wrapper.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webVersion/assets/sass/ie8.scss" beforeDir="false" afterPath="$PROJECT_DIR$/webVersion/assets/sass/ie8.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webVersion/assets/sass/ie9.scss" beforeDir="false" afterPath="$PROJECT_DIR$/webVersion/assets/sass/ie9.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webVersion/assets/sass/layout/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/webVersion/assets/sass/layout/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webVersion/assets/sass/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/webVersion/assets/sass/layout/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webVersion/assets/sass/layout/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/webVersion/assets/sass/layout/_main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webVersion/assets/sass/libs/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/webVersion/assets/sass/libs/_functions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webVersion/assets/sass/libs/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/webVersion/assets/sass/libs/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webVersion/assets/sass/libs/_skel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/webVersion/assets/sass/libs/_skel.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webVersion/assets/sass/libs/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/webVersion/assets/sass/libs/_vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webVersion/assets/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/webVersion/assets/sass/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webVersion/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webVersion/index.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="173" />
+    <option name="y" value="13" />
+    <option name="width" value="933" />
+    <option name="height" value="667" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MindReader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MindReader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MindReader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MindReader" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2cdaf9d9-8310-4aab-874f-d3653036e4db" name="Default Changelist" comment="" />
+      <created>1558478434902</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558478434902</updated>
+      <workItem from="1558478436089" duration="250000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="250000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/client/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

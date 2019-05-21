@@ -1,0 +1,179 @@
+<!--&lt;!&ndash;The content below is only a placeholder and can be replaced.&ndash;&gt;-->
+<!--<div style="text-align:center">-->
+<!--<h1>-->
+<!--Welcome to {{ title }}!-->
+<!--</h1>-->
+<!--<img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">-->
+<!--</div>-->
+<!--<h2>Here are some links to help you start: </h2>-->
+<!--<ul>-->
+<!--<li>-->
+<!--<h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>-->
+<!--</li>-->
+<!--<li>-->
+<!--<h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>-->
+<!--</li>-->
+<!--<li>-->
+<!--<h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>-->
+<!--</li>-->
+<!--</ul>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head>-->
+
+  <!--<meta charset="utf-8" />-->
+  <!--<title>Mind Reader</title>-->
+  <!--<meta charset="utf-8" />-->
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1" />-->
+
+  <!--<meta property="og:title" content="Mind Reader" />-->
+  <!--<meta property="og:type"               content="website" />-->
+  <!--<meta property="og:url"               content="https://media.mit.edu/~guysatat/MindReader/index.html" />-->
+  <!--<meta property="og:description" content="Mind Reader is an online game played against the computer, which is trying to predict the user's next move. The algorithm is based on an online learning framework that learns the user's behavior in real time." />-->
+  <!--<meta property="og:image" content="https://media.mit.edu/~guysatat/images/mindreader.jpg" />-->
+
+  <!--<link rel="stylesheet" href="../assets/css/main.css" />-->
+  <!--<link rel="stylesheet" href="../assets/css/overwrite.css" />-->
+
+
+  <!--<style>-->
+    <!--* { padding: 0; margin: 0; }-->
+    <!--canvas { background: #eee; display: block; margin: 0 auto; }-->
+  <!--</style>-->
+
+  <!--<link href="https://fonts.googleapis.com/css?family=Lato:100|Roboto" rel="stylesheet">-->
+  <!--<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">-->
+
+
+  <!--&lt;!&ndash; Global Site Tag (gtag.js) - Google Analytics &ndash;&gt;-->
+  <!--<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106666434-1"></script>-->
+  <!--<script>-->
+    <!--window.dataLayer = window.dataLayer || [];-->
+    <!--function gtag(){dataLayer.push(arguments)};-->
+    <!--gtag('js', new Date());-->
+
+    <!--gtag('config', 'UA-106666434-1');-->
+  <!--</script>-->
+
+<!--</head>-->
+<!--<pody>-->
+
+<!--<section id="text" class="wrapper">-->
+  <!--<nav id="nav">-->
+    <!--<ul class="container">-->
+      <!--<li><a href="../index.html#Top">Home</a></li>-->
+      <!--<li><a href="../index.html#News">News</a></li>-->
+      <!--<li><a href="../index.html#Projects">Projects</a></li>-->
+      <!--<li><a href="../index.html#Publications">Publications</a></li>-->
+      <!--<li><a href="../index.html#Talks">Talks</a></li>-->
+      <!--<li><a href="../index.html#About">About Me</a></li>-->
+      <!--<li><a href="../index.html#Contact">Contact</a></li>-->
+    <!--</ul>-->
+  <!--</nav>-->
+<!--</section>-->
+<!--TODO: add website navigation -->
+<section id="text" class="wrapper">
+
+  <header class="major" style="margin: 0 0 1em 0">
+
+    <div id="header_left_col">
+      <a href="http://media.mit.edu" target="_blank"><img class="mlIcons" src="../assets/MIT_ML_Logo_R_RGB1.jpg" height="100"/></a>
+    </div>
+    <div id="header_center">
+      <h2>The Mind Reader Game</h2>
+      <h4 style="margin:0 0 0.5em 0">Prevent the algorithm from predicting your next move</h4>
+      <h5><a href="http://media.mit.edu/~guysatat/" target="_blank">Guy Satat</a>,
+        <a href="http://media.mit.edu/~raskar/" target="_blank">Ramesh Raskar</a> </h5>
+      <h5><a href="http://cameraculture.media.mit.edu" target="_blank">Camera Culture Group</a></h5>
+    </div>
+    <div id="header_right_col">
+      <a href="http://cameraculture.media.mit.edu" target="_blank"><img class="mlIcons" src="../assets/CameraCulture_Logo_R_RGB1.jpg" height="100"/></a>
+    </div>
+
+  </header>
+  <router-outlet></router-outlet>
+
+  <!---    <header class="major" style="margin: 0 0 1em 0">
+        <h2>The Mind Reader Game</h2>
+        <h4 style="margin:0 0 0.5em 0">Prevent the algorithm from predicting your next move</h4>
+        <h5><a href="http://media.mit.edu/~guysatat/" target="_blank">Guy Satat</a>,
+          <a href="http://media.mit.edu/~raskar/" target="_blank">Ramesh Raskar</a> </h5>
+          <h5><a href="http://cameraculture.media.mit.edu" target="_blank">Camera Culture Group</a></h5>
+      </header>--->
+<app-game></app-game>
+  <!--<app-main></app-main>-->
+
+
+  <div class="inner">
+    <section>
+      <div class='section_header'>Game Rules</div>
+      <!--<p style="margin: 0 0 0em 0">-->
+      <ul>
+        <li>Each turn, you choose either left or right (use keyboard or the buttons below).</li>
+        <li>The computer tries to predict your choice.</li>
+        <li>If the computer successfully predicts your choice it wins the round, otherwise you win the round.</li>
+        <li>The first to win 25 rounds wins the game.</li>
+        <li>You have 3 seconds for each turn, and the extra time is carried to the next round up to 10 seconds. If you don't make your move in time you lose the round.</li>
+      </ul>
+      <!--</p>-->
+
+      <div class='section_header'>Interested In Helping To Develop The Next Version?</div>
+      <p style="margin: 0 0 1em 0">
+        Apply <a href="https://goo.gl/forms/heV68KsnbkElqrrj2">here</a>.
+      </p>
+
+      <div class='section_header'>Background</div>
+      <p style="margin: 0 0 1em 0">
+        Mind Reader is an online game played against the computer, which is trying to predict the user's next move.  <br />
+        The algorithm is based on an online learning framework that learns the user's behavior in real time. <br />
+        The game was developed as part of my <a href="http://www.mit.edu/~rakhlin/6.883/">6.883 Online Methods in Machine Learning</a> class project.
+      </p>
+
+      <p>
+        This game is motivated by Shannon’s "A Mind-reading(?) Machine"(1953) and Hagelbarger's "SEER, A SEquence Extrapolating Robot"(1956). In fact, some of the strategies that are used by the algorithm here are directly derived from Shannon's and Hagelbarger's work.<br />
+        The algorithm used here is based on the Expert Setting: multiple strategies (or predictors) predict the user's next move, and a meta algorithm aggregates all the strategies into a single decision.<br />
+      </p>
+      <div class='section_header'>Related Materials</div>
+
+      <p style="margin: 0 0 1em 0">
+      <ul>
+        <li> My class project report can be found <a href="GuySatat_MindReader_FinalProject.pdf">here</a>.
+        <li> Project <a href="https://github.com/mitmedialab/MindReader">GitHub repo</a>.
+      </ul>
+      <!--</p>-->
+      <div class='section_header'>About <a href="http://cameraculture.media.mit.edu"  target="_blank">Camera Culture Group</a></div>
+      <p style="margin: 0 0 1em 0">
+        The Camera Culture group focuses on making the invisible visible — inside our bodies, around us, and beyond — for health, work, and connection. The goal is to create an entirely new class of computational and sensory platforms that have an understanding of the world that far exceeds human ability and produce meaningful abstractions that are well within human comprehensibility.
+      </p>
+      <p>
+        The group conducts multi-disciplinary research in physical (e.g., sensors, health-tech), digital (e.g., automating machine learning) and global (e.g., geomaps, autonomous mobility) domains. Recent projects include cameras to see around corners beyond the line of sight, health diagnostics devices that are being used in 90+ countries, and distributed computing for population health via automated and privacy-aware machine learning.
+      </p>
+      <p  style="margin: 0 0 1em 0">
+        Stay in touch with the Camera Culture Group:
+      <ul>
+        <li> <a href="http://tinyurl.com/zl2ofrq"  target="_blank">Join our mailing list</a> for research updates, information on hiring, and group member videos and talks.
+        <li><a href="http://tiny.cc/raskjobs"  target="_blank">Apply for open positions</a>.
+      </ul>
+      <!--</p>-->
+    </section>
+  </div>
+  <footer id="footer">
+    <p class="copyright">&copy; Guy Satat 2017. All rights reserved.  <br />   HTML template: <a href="http://html5up.net">HTML5 UP</a></p>
+  </footer>
+</section>
+<script src="assets/MindReaderGame.js"></script>
+
+  <!-- Scripts -->
+  <!--<script src="assets/js/jquery.min.js"></script>-->
+  <!--<script src="assets/js/jquery.scrolly.min.js"></script>-->
+  <!--<script src="assets/js/skel.min.js"></script>-->
+  <!--<script src="assets/js/util.js"></script>-->
+  <!--&lt;!&ndash;[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]&ndash;&gt;-->
+  <!--<script src="assets/js/main.js"></script>-->
+  <!--<script src="https://d3js.org/d3.v3.min.js"></script>-->
+
+
+<!--</body>-->
+<!--</html>-->
+
