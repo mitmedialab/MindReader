@@ -1,3 +1,14 @@
+ABOUT THE PROJECT:
+Client side for the Mind Reader game.
+Written in Angular and Javascript.
+
+RUN ON PRODUCTION CMD:
+ng build --prod
+The output will be located in "dist" folder.
+
+To play the game and more details:
+http://web.media.mit.edu/~guysatat/MindReader/index.html
+
 # MindReader
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5.
