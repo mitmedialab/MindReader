@@ -402,7 +402,6 @@ class reactivePredictor extends predictor {
 
     var predictionAndScore = this.stateMachine[currentStateInd]
 
-    //  console.log('last state ', lastState, ', last ind ', lastStateInd, '    current state ', currentState, '  current ind ', currentStateInd, '    state machine: ', this.stateMachine);
     return predictionAndScore;
   }
 }
@@ -443,14 +442,12 @@ function updateTime() {
       currentTurnTime=timePerTurn;
       scoreUpdate();
     }
-    console.log("time in restart: " + String(timeLeft));
   }
   updateGraphics();
 }
 
 //Update the machine status with the user choice
 function userAction(key) {
-  console.log('wait for restart: ' + waitForRestart);
 
   if (waitForRestart>0) {
     return;
@@ -464,7 +461,6 @@ function userAction(key) {
     if (timeLeft>maxTime) {
       timeLeft=maxTime;
     }
-    console.log("time: " + String(timeLeft));
   }
   currentTurnTime=timePerTurn;
 

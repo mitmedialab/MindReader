@@ -37,7 +37,6 @@ const routes: Routes = [
     HttpClientModule,
     NoopAnimationsModule,
     MatToolbarModule,
-    // ReactiveFormsModule,
     MatToolbarModule,
     MatFormFieldModule,
     MatInputModule,
@@ -56,10 +55,4 @@ const routes: Routes = [
 
 })
 export class AppModule {
-
-  // userAction(input: string):void{
-  //   console.log("action!");
-  // }
-
-
 }

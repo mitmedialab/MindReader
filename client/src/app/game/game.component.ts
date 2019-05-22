@@ -1,8 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-// import {Result} from '../result.model';
- // import  './../../MindReaderGame';
- //   import * as _ from '../../assets/MindReaderGame';
- // import * as Bot from './../../MindReaderAlg';
 import { ResultService } from '../result.service';
 import { Result } from '../result.model';
 import {Router} from '@angular/router';
@@ -38,21 +34,14 @@ export class GameComponent implements OnInit {
       else if (+waitForRestart == 0 && gameStarted == 0){
         this.isSent = false;
       }
-      // this.addResult();
     }, 500);
   }
 
   userActiont(inp: string): void {
-    console.log("TS");
-
-    // console.log(waitForRestart);
-
     userAction(1);
   }
 
   restartGamet(): void  {
-    // console.log('hurray!');
-
     restartGame();
   }
 

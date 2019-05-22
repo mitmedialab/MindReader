@@ -1,77 +1,4 @@
-<!--&lt;!&ndash;The content below is only a placeholder and can be replaced.&ndash;&gt;-->
-<!--<div style="text-align:center">-->
-<!--<h1>-->
-<!--Welcome to {{ title }}!-->
-<!--</h1>-->
-<!--<img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">-->
-<!--</div>-->
-<!--<h2>Here are some links to help you start: </h2>-->
-<!--<ul>-->
-<!--<li>-->
-<!--<h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>-->
-<!--</li>-->
-<!--<li>-->
-<!--<h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>-->
-<!--</li>-->
-<!--<li>-->
-<!--<h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>-->
-<!--</li>-->
-<!--</ul>-->
 
-<!--<!DOCTYPE html>-->
-<!--<html>-->
-<!--<head>-->
-
-  <!--<meta charset="utf-8" />-->
-  <!--<title>Mind Reader</title>-->
-  <!--<meta charset="utf-8" />-->
-  <!--<meta name="viewport" content="width=device-width, initial-scale=1" />-->
-
-  <!--<meta property="og:title" content="Mind Reader" />-->
-  <!--<meta property="og:type"               content="website" />-->
-  <!--<meta property="og:url"               content="https://media.mit.edu/~guysatat/MindReader/index.html" />-->
-  <!--<meta property="og:description" content="Mind Reader is an online game played against the computer, which is trying to predict the user's next move. The algorithm is based on an online learning framework that learns the user's behavior in real time." />-->
-  <!--<meta property="og:image" content="https://media.mit.edu/~guysatat/images/mindreader.jpg" />-->
-
-  <!--<link rel="stylesheet" href="../assets/css/main.css" />-->
-  <!--<link rel="stylesheet" href="../assets/css/overwrite.css" />-->
-
-
-  <!--<style>-->
-    <!--* { padding: 0; margin: 0; }-->
-    <!--canvas { background: #eee; display: block; margin: 0 auto; }-->
-  <!--</style>-->
-
-  <!--<link href="https://fonts.googleapis.com/css?family=Lato:100|Roboto" rel="stylesheet">-->
-  <!--<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">-->
-
-
-  <!--&lt;!&ndash; Global Site Tag (gtag.js) - Google Analytics &ndash;&gt;-->
-  <!--<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106666434-1"></script>-->
-  <!--<script>-->
-    <!--window.dataLayer = window.dataLayer || [];-->
-    <!--function gtag(){dataLayer.push(arguments)};-->
-    <!--gtag('js', new Date());-->
-
-    <!--gtag('config', 'UA-106666434-1');-->
-  <!--</script>-->
-
-<!--</head>-->
-<!--<pody>-->
-
-<!--<section id="text" class="wrapper">-->
-  <!--<nav id="nav">-->
-    <!--<ul class="container">-->
-      <!--<li><a href="../index.html#Top">Home</a></li>-->
-      <!--<li><a href="../index.html#News">News</a></li>-->
-      <!--<li><a href="../index.html#Projects">Projects</a></li>-->
-      <!--<li><a href="../index.html#Publications">Publications</a></li>-->
-      <!--<li><a href="../index.html#Talks">Talks</a></li>-->
-      <!--<li><a href="../index.html#About">About Me</a></li>-->
-      <!--<li><a href="../index.html#Contact">Contact</a></li>-->
-    <!--</ul>-->
-  <!--</nav>-->
-<!--</section>-->
 <!--TODO: add website navigation -->
 <section id="text" class="wrapper">
 
@@ -94,21 +21,12 @@
   </header>
   <router-outlet></router-outlet>
 
-  <!---    <header class="major" style="margin: 0 0 1em 0">
-        <h2>The Mind Reader Game</h2>
-        <h4 style="margin:0 0 0.5em 0">Prevent the algorithm from predicting your next move</h4>
-        <h5><a href="http://media.mit.edu/~guysatat/" target="_blank">Guy Satat</a>,
-          <a href="http://media.mit.edu/~raskar/" target="_blank">Ramesh Raskar</a> </h5>
-          <h5><a href="http://cameraculture.media.mit.edu" target="_blank">Camera Culture Group</a></h5>
-      </header>--->
 <app-game></app-game>
-  <!--<app-main></app-main>-->
 
 
   <div class="inner">
     <section>
       <div class='section_header'>Game Rules</div>
-      <!--<p style="margin: 0 0 0em 0">-->
       <ul>
         <li>Each turn, you choose either left or right (use keyboard or the buttons below).</li>
         <li>The computer tries to predict your choice.</li>
@@ -155,7 +73,6 @@
         <li> <a href="http://tinyurl.com/zl2ofrq"  target="_blank">Join our mailing list</a> for research updates, information on hiring, and group member videos and talks.
         <li><a href="http://tiny.cc/raskjobs"  target="_blank">Apply for open positions</a>.
       </ul>
-      <!--</p>-->
     </section>
   </div>
   <footer id="footer">
@@ -163,17 +80,5 @@
   </footer>
 </section>
 <script src="assets/MindReaderGame.js"></script>
-
-  <!-- Scripts -->
-  <!--<script src="assets/js/jquery.min.js"></script>-->
-  <!--<script src="assets/js/jquery.scrolly.min.js"></script>-->
-  <!--<script src="assets/js/skel.min.js"></script>-->
-  <!--<script src="assets/js/util.js"></script>-->
-  <!--&lt;!&ndash;[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]&ndash;&gt;-->
-  <!--<script src="assets/js/main.js"></script>-->
-  <!--<script src="https://d3js.org/d3.v3.min.js"></script>-->
-
-
-<!--</body>-->
-<!--</html>-->
+<script src="assets/js/ie/respond.min.js"></script>
 

@@ -23,17 +23,6 @@ export class ResultService {
   }
 
   addResult(player, bot) {
-    //
-    // const result = {
-    //   "player": 5,
-    //   "bot": 10
-    // };
-    // return this.http.post(`${this.uri}/results/add`, result);
-    // nplayer : Number =
-    // nplayer =
-
-    console.log(player['value']-1);
-    console.log(bot['value']-1);
 
     return this.http.post(`${this.uri}/results/add`,
       {
