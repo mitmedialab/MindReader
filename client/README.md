@@ -2,9 +2,14 @@ ABOUT THE PROJECT:
 Client side for the Mind Reader game.
 Written in Angular and Javascript.
 
-RUN ON PRODUCTION CMD:
+
+RUN ON PRODUCTION INFO:
 ng build --prod
 The output will be located in "dist" folder.
+
+SERVER IP
+The Mongo server ip address should be updated in:
+client/src/app/result.service.ts
 
 To play the game and more details:
 http://web.media.mit.edu/~guysatat/MindReader/index.html
