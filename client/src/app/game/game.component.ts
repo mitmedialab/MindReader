@@ -61,10 +61,8 @@ export class GameComponent implements OnInit {
 
 
   addResult(): void {
-    console.log(scores[0]);
-    console.log(scores[2]);
     this.isSent = true;
-    this.resultService.addResult(scores[0], scores[2] );
+    this.resultService.addResult(scores[2], scores[0] );
   }
 }
 

@@ -31,14 +31,14 @@ export class ResultService {
       })
       .subscribe(
         (val) => {
-          console.log("POST call successful value returned in body",
-            val);
+          // console.log("POST call successful value returned in body",
+          //   val);
         },
         response => {
           console.log("POST call in error", response);
         },
         () => {
-          console.log("The POST observable is now completed.");
+          // console.log("The POST observable is now completed.");
         });
   }
 
