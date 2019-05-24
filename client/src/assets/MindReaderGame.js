@@ -410,7 +410,7 @@ class reactivePredictor extends predictor {
 var numberOfGameTurns, maxTime, timePerTurn;
 
 //game status variables
-var userScore, machineScore, turnNumber, timeLeft, currentTurnTime, gameStarted, waitForRestart,timeOfPrediction, timeOfPredictionText = "";
+var overallScore, userScore, machineScore, turnNumber, timeLeft, currentTurnTime, gameStarted, waitForRestart,timeOfPrediction, timeOfPredictionText = "";
 
 //bot instance
 var bot;
@@ -422,10 +422,10 @@ t = setInterval(updateTime, 1000);
 document.addEventListener("keydown", keyDownHandler, false);
 function keyDownHandler(e) {
   if(e.which == 39) {  //Right key
-      userAction(1);
+    userAction(1);
   }
   else if(e.which == 37) { //Left key
-      userAction(-1);
+    userAction(-1);
   }
 }
 
@@ -477,19 +477,21 @@ function userAction(key) {
   bot.updateUserMove(key);
   var timeAfterPrediction =  performance.now();
 
-   timeOfPrediction = timeAfterPrediction - timeBeforePrediction
-   timeOfPredictionText = 'It took ' + timeOfPrediction.toFixed(2) + ' miliseconds to predict next step.'
+  timeOfPrediction = timeAfterPrediction - timeBeforePrediction
+  timeOfPredictionText = 'It took ' + timeOfPrediction.toFixed(2) + ' miliseconds to predict next step.'
 }
 
 function scoreUpdate() {
   if (userScore >= numberOfGameTurns/2) { //gave over user won
     gameStarted=0;
     waitForRestart = 1;
+    overallScore = 2 * (userScore - machineScore) / numberOfGameTurns;
   }
 
   if (machineScore >= numberOfGameTurns/2) { //gave over user won
     gameStarted=0;
     waitForRestart = 2;
+    overallScore = 2 * (userScore - machineScore) / numberOfGameTurns;
   }
   updateGraphics();
 }
@@ -502,6 +504,7 @@ function restartGame() {
   machineScore = 0;
   turnNumber = 0;
   timeLeft = maxTime;
+  overallScore = -2;
 
   currentTurnTime = timePerTurn;
   gameStarted = 0;
