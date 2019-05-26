@@ -11,7 +11,7 @@ const router = express.Router();
 app.use(cors());
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb://localhost:27017/MainDB');
+mongoose.connect('mongodb://localhost:27017/MainDB', { useNewUrlParser: true });
 
 const connection = mongoose.connection;
 
@@ -34,7 +34,7 @@ router.route('/results/add').post((req, res) => {
     let result = new Result(req.body);
     result.save()
         .then(result => {
-            console.log(":)");
+             console.log("inserting)");
             res.status(200).json({'result': 'Added successfully'});
         })
         .catch(err => {
