@@ -10,6 +10,10 @@ let Result = new Schema({
     bot: {
         type:  Number,
         default: 0
+    },
+    overall: {
+        type:  Number,
+        default: 0
     }
 });
 

@@ -4,7 +4,9 @@ import { Result } from '../result.model';
 import {Router} from '@angular/router';
 
 
-
+declare var userScore: any;
+declare var machineScore: any;
+declare var overallScore: any;
 declare var scores: any;
 declare var waitForRestart: any;
 declare var gameStarted: any;
@@ -62,7 +64,7 @@ export class GameComponent implements OnInit {
 
   addResult(): void {
     this.isSent = true;
-    this.resultService.addResult(scores[2], scores[0] );
+    this.resultService.addResult(userScore, machineScore, overallScore );
   }
 }
 

@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-declare var nplayer: number;
 
 
 @Injectable({
@@ -8,8 +7,8 @@ declare var nplayer: number;
 })
 export class ResultService {
 
-  // uri = 'http://18.85.55.124:4300';
-   uri = 'http://localhost:4300';
+  uri = 'http://18.85.55.124:4300';
+   // uri = 'http://localhost:4300';
 
 
   constructor(private http: HttpClient) {}
@@ -22,12 +21,17 @@ export class ResultService {
     return this.http.get(`${this.uri}/results/${id}`);
   }
 
-  addResult(player, bot) {
+  addResult(player, bot, overall) {
+    console.log("overall:" + overall);
+    console.log("player:" + player);
+
+    console.log("bot:" + bot);
 
     return this.http.post(`${this.uri}/results/add`,
       {
-        "player": player['value']-1 ,
-        "bot": bot['value']-1
+        "player": player,
+        "bot": bot,
+        "overall": overall
       })
       .subscribe(
         (val) => {
