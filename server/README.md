@@ -1,10 +1,13 @@
-ABOUT THE PROJECT:
+#ABOUT THE PROJECT:
 Server side for the Mind Reader game.
+
 Written in Typescript with Express.
+
 Using Babel for Typescript conversion.
+
 DB used: Mongo
 
-RUN ON PRODUCTION INFO:
+#RUN ON PRODUCTION INFO:
 
 Source for instructions:
 https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-18-04 
