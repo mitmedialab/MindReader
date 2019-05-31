@@ -59,14 +59,14 @@ svg.append("text")
   .attr("id","timeText")
   .attr("y",-radius*0.9)
   .attr("x",0)
-  .attr("font-size",14)
+  // .attr("font-size",14)
   .attr("text-anchor", "middle");
-svg.append("text")
-  .attr("id","predictionTimeText")
-  .attr("y",-radius*0.8)
-  .attr("x",0)
-  .attr("font-size",14)
-  .attr("text-anchor", "middle");
+// svg.append("text")
+//   .attr("id","predictionTimeText")
+//   .attr("y",-radius*0.8)
+//   .attr("x",0)
+//   .attr("font-size",14)
+//   .attr("text-anchor", "middle");
 svg.append("text")
   .text("")
   .attr("id","winText")
@@ -105,7 +105,7 @@ function updateGraphics() {
   botText.textContent = "Bot: " + String(scores[0].value-1);
   youText.textContent = "You: " + String(scores[2].value-1);
   timeText.textContent = "Time left: " + String(timeLeft);
-  predictionTimeText.textContent = timeOfPredictionText;//"Next step perdiction was calculated in " + timeOfPrediction + " miliseconds."
+  // predictionTimeText.textContent = timeOfPredictionText;//"Next step perdiction was calculated in " + timeOfPrediction + " miliseconds."
 
   if (waitForRestart==1) {
     winText.textContent = "You Won!";

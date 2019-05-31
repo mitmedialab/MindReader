@@ -22,10 +22,10 @@ export class ResultService {
   }
 
   addResult(player, bot, overall) {
-    console.log("overall:" + overall);
-    console.log("player:" + player);
-
-    console.log("bot:" + bot);
+    // console.log("overall:" + overall);
+    // console.log("player:" + player);
+    //
+    // console.log("bot:" + bot);
 
     return this.http.post(`${this.uri}/results/add`,
       {

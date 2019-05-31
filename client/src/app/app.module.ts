@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { GameComponent } from './game/game.component';
-import { MainComponent } from './components/main/main.component';
+// import { MainComponent } from './components/main/main.component';
 import {HttpClientModule} from '@angular/common/http';
 // import { MatToolbarModule } from '@angular/material';
 
@@ -22,14 +22,17 @@ import {
 } from '@angular/material';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 const routes: Routes = [
-  { path: 'main', component: MainComponent },
-  { path: '', redirectTo: '/main', pathMatch: 'full'}
+  // {
+    // path: 'main', component: MainComponent }
+  // ,
+  // { path: '', redirectTo: '/main', pathMatch: 'full'}
 ];
 @NgModule({
   declarations: [
     AppComponent,
-    GameComponent,
-    MainComponent
+    GameComponent
+    // ,
+    // MainComponent
   ],
   imports: [
     BrowserModule,

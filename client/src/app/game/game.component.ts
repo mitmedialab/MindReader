@@ -23,17 +23,16 @@ export class GameComponent implements OnInit {
   isSent = false;
 
 
-  constructor(private resultService: ResultService, private router: Router) { }
+  constructor(private resultService: ResultService, private router: Router) {
+  }
 
   ngOnInit() {
     this.fetchResults();
 
-    setInterval( () => {
-      if (+waitForRestart > 0 && gameStarted === 0 && !this.isSent)
-      {
+    setInterval(() => {
+      if (+waitForRestart > 0 && gameStarted === 0 && !this.isSent) {
         this.addResult();
-      }
-      else if (+waitForRestart == 0 && gameStarted == 0){
+      } else if (+waitForRestart == 0 && gameStarted == 0) {
         this.isSent = false;
       }
     }, 500);
@@ -43,7 +42,7 @@ export class GameComponent implements OnInit {
     userAction(1);
   }
 
-  restartGamet(): void  {
+  restartGamet(): void {
     restartGame();
   }
 
@@ -52,8 +51,8 @@ export class GameComponent implements OnInit {
       .getResults()
       .subscribe((data: Result[]) => {
         this.results = data;
-        console.log('Data requested ... ');
-        console.log(this.results);
+        // console.log('Data requested ... ');
+        // console.log(this.results);
       });
   }
 
@@ -64,7 +63,7 @@ export class GameComponent implements OnInit {
 
   addResult(): void {
     this.isSent = true;
-    this.resultService.addResult(userScore, machineScore, overallScore );
+    this.resultService.addResult(userScore, machineScore, overallScore);
   }
 }
 
