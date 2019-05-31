@@ -10,7 +10,7 @@ DB used: Mongo
 # RUN ON PRODUCTION INFO:
 
 ## Sanity test for both server side and mogoDB:
-curl localhost:4300/results
+curl 18.85.55.124:4300/results
 
 It simulates get request to the server, and pulls the values from the db.
 
@@ -34,5 +34,15 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-applica
 # To play the game and more details:
 http://web.media.mit.edu/~guysatat/MindReader/index.html    
 
+
+
+
+
+# Check Databse
+
+#### start by typing:
+    mongo
+    use MainDB
+    
 
 
