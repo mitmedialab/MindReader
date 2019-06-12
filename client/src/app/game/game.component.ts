@@ -39,7 +39,7 @@ export class GameComponent implements OnInit {
   }
 
   userActiont(inp: string): void {
-    userAction(1);
+    userAction(inp);
   }
 
   restartGamet(): void {
