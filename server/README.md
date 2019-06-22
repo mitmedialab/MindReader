@@ -25,8 +25,6 @@ It simulates get request to the server, and pulls the values from the db.
     node server.js 
 
     
-    
-    
 # Source for instructions:
 https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-18-04 
 
@@ -40,7 +38,7 @@ http://web.media.mit.edu/~guysatat/MindReader/index.html
 
 # Check Databse
 
-#### start by typing:
+#### Mongo shell:
     mongo
     use MainDB
     
