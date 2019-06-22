@@ -38,9 +38,18 @@ http://web.media.mit.edu/~guysatat/MindReader/index.html
 
 # Check Databse
 
-#### Mongo shell:
+#### use db from Mongo shell:
     mongo
     use MainDB
     
+#### search "results" table content:
+    db.results.find({})
+    db.results.find({"player":20})
 
+#### delete all "results" table content:
+    db.results.deleteMany({})
+
+#### show all databases / collections
+    show dbs
+    show collections
 
